@@ -1,0 +1,17 @@
+/* Estructura Json para crear un arbol binario */
+// Método /api/arbol/crearArbolBinario
+{
+    "Tree": [
+      67,39,76,28,44,74,85,29,83,87
+    ]
+}
+
+/* Formato del Json para construir arbol binario y obtener el nodo comun entre dos valores ingresados*/
+// Método /api/arbol/validarAncestro
+{
+  "arbol": [
+    67,39,76,28,44,74,85,29,83,87
+  ],
+  "Nodo1": "29",
+  "Nodo2": "44"    
+}
